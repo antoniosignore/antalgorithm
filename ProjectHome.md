@@ -1,0 +1,7 @@
+AntNet is an algorithm for adaptive best-effort routing in IP networks. AntNet's design is based on the Ant Colony Optimization (ACO) framework, which exploits the mechanisms behind the shortest path behavior observed in ant colonies to define a Nature-inspired metaheuristic for combinatorial optimization.
+
+ACO features a multi-agent organization, stigmergic communication among the agents, distributed operations, use of a stochastic decision policy to construct solutions, stigmergic learning of the parameters of the decision policy, and so on. It has been applied with success to a large variety of combinatorial problems. AntNet has been the first ACO algorithm for routing in packet-switched networks. My first work on AntNet dates back to 1997.
+
+AntNet, as well as most of the other ACO routing algorithms designed after AntNet, exhibits a number of interesting properties: it works in a fully distributed way, is highly adaptive to network and traffic changes, uses lightweight mobile agents (called ants) for active path sampling, is robust to agent failures, provides multipath routing, and automatically takes care of data load spreading.
+
+AntNet's performance has been extensively tested, considering different networks and traffic patterns, and compared to several state-of-the-art routing algorithms. In the great majority of the considered situations, AntNet has largely outperformed all its competitors, showing excellent adaptivity and robustness.
